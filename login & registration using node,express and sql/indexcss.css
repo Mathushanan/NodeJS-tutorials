@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+
+.container{
+position: absolute;
+
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 2rem;
+display: block;
+background-color: #FFF;
+border-radius: 3px;
+}
+.data{
+    display: block;
+  
+    margin-top: .5rem;
+}
+.data label{
+    font-size: 1rem;
+    margin-top: 1rem;
+    
+}
+.data input{
+    width: 100%;
+    font-size: 1.5rem;
+    padding: .2rem 0.5rem;
+    outline: none;
+    border: 1px solid silver;
+    margin-top: .2rem;
+}
+.login-btn{
+    width: 100%;
+    padding: .5rem 0;
+    border: none;
+    color: #FFF;
+    background-color:blueviolet;
+}
+.login-btn:hover{
+    color: blueviolet;
+    background-color: #FFF;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}
+.forgot-pass{
+    margin-top: 0.5rem;
+}
+
+.forgot-pass a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.forgot-pass a:hover{
+    text-decoration: underline;
+  }
+.already{
+    margin-top: 0.5rem;
+}
+.already a{
+  text-decoration: none;
+  color: blueviolet;
+}
+.already a:hover{
+    text-decoration: underline;
+  }
+.btn{
+    margin-top: 1rem;
+}
+.heading{
+    text-align: center;
+    
+}
+.heading p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: blueviolet;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+nav .items a{
+    margin-right: 1rem;
+    color: #FFF;
+    text-decoration: none;
+   
+}
+nav .items a:hover{
+    
+    text-decoration: underline;
+   
+}
+.logo p{
+    font-size: 1.5rem;
+}
